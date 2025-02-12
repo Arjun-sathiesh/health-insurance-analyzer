@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import PdfReader
+from pypdf import PdfReader
 import google.generativeai as genai
 
 # Dummy user credentials (Replace with a database in a real system)
